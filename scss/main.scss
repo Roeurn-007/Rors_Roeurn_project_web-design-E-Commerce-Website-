@@ -1,0 +1,62 @@
+@import "variable";
+@import "components/navbar";
+@import "components/products";
+@import "components/footer";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.title-text{
+    font-size: 48px;
+}
+
+.container-about-us{
+    text-align: center;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-about-us p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+.content-about-us{
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    gap: 16px;
+    margin: 32px;
+    background:rgb(255, 255, 255);
+    padding: 40px;
+    width: 90%;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+.content-about-us img{
+    width: 48%;
+    height: 64vh;
+}
+.about-us{
+    background: #fff;
+    height: 100vh;
+}
+.banner-home{
+    width: 100%;
+    height: 68vh;
+    margin-bottom: 42px;
+}
+.banner-home img{
+    width: 100%;
+    height: 100%;
+}

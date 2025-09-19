@@ -1,0 +1,84 @@
+
+.footer-container-all{
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+}
+footer{
+    border-top: 6px solid $yellow;
+    background: #362d27;
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+.shop{
+    width: 25%;
+}
+.shop p {
+    width: 100%;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 16px;
+}
+.by-me{
+    width: 100%;
+    height: 10vh;
+    background: #2a2420;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-menu a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-contact div{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.footer-contact div span{
+    font-size: 24px;
+}
+.footer-contact div p{
+    font-size: 18px;
+}
+.footer-contact div i{
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 4px 6px;
+    transition: transform 0.3s ease; /* smooth movement */
+}
+.footer-contact div i:hover{
+    color: $yellow;
+    border: 2px solid $yellow;
+    transform: translateY(-6px); /* fly up a bit */
+}
+.footer-img div{
+    display: flex;
+    max-width: 40%;
+    height: 24vh;
+    gap: 2px;
+    margin-bottom: 2px;
+}
+
+.footer-img h1{
+    margin-bottom: 16px;
+}

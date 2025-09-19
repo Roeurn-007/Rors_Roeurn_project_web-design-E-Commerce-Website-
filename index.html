@@ -3,17 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/main.min.css">
     <title>Limessery Coffee</title>
 </head>
 <body>
     <nav>
-        <header>
-            <a href="home">Home</a>
-            <a href="about-us">About Us</a>
-            <a href="products">Products</a>
-            <a href="review">Review</a>
-            <a href="contact-us">Contact Us</a>
+        <!-- Start header code  -->
+        <header id="home">
+            <div class="navbar">
+                <div class="container-logo">
+                    <h1>Limessery Coffee</h1>
+                </div>
+                <div class="container-menu">
+                    <a href="index.html">Home</a>
+                    <a href="pages/aboutPage.html">About Us</a>
+                    <a href="pages/productsPage.html">Products</a>
+                    <a href="pages/reviewPage.html">Review</a>
+                    <a href="pages/contactPage.html">Contact Us</a>
+                </div>
+                <div class="container-icon">
+                    <span class="material-symbols-outlined">favorite</span>
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                </div>
+            </div>
+            <div class="slogan">
+                <h1>Freshly brewed with love in every cup!</h1>
+                <p> We carefully select our ingredients to bring you <strong>fresh, flavorful, and handcrafted</strong> </p>
+                <div>
+                    Because at Limessery, <strong>we don’t just serve drinks—we serve happiness, one cup at a time.</strong>
+                </div>
+                <button class="btn btn-home border-radius-1">See more</button>
+            </div>
         </header>
+        <!-- The end header code  -->
+
+
+        <!-- main about us code  -->
+        <main class="about-us">
+            <div class="container-about-us" >
+                <h1 class="title-content">Product <strong class="yellow-strong">Detail</strong></h1>
+                <div class="content-about-us border-radius-2">
+                    <img src="images/homes/about-us.jpg" alt="about-us" class="border-radius-1">
+                    <div>
+                        <h1>what makes our coffee special?</h1>
+                        <p>At <strong>Limesery</strong>, we believe a good drink is more than just taste, it’s a feeling. 
+                            From the aroma of freshly ground beans to the warmth of every sip, our mission is to create moments 
+                            of comfort and joy for everyone who walks through our doors.
+                        </p>
+                        <button class="btn border-radius-1 btn-yellow">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- The end about us code  -->
+
+
+        <div class="banner-home">
+            <img src="images/banner_descound/banner4.png" alt="">
+        </div>
+
+
+        <!-- Start Products code  -->
+        <section class="products">
+            <h1 class="title-content">Popular <strong class="yellow-strong">Products</strong></h1>
+
+            <!-- viewport -->
+            <div class="slider-container">
+                <!-- scrolling track -->
+                <div class="promo-track">
+                
+                    <!-- your 8 cards -->
+                    <div class="card-coffee border-radius-1">
+                        <img class="border-radius-1" src="images/homes/our-products/1.png" alt="">
+                        <h2>Vanilla Iced Latte</h2>
+                        <p>Rich espresso with creamy milk and a hint of sweet vanilla.</p>
+                        <div>
+                        <strong>$3.99 <del>$5.55</del></strong>
+                        <button class="btn btn-products">Order now</button>
+                        </div>
+                    </div>
+
+                    <div class="card-coffee border-radius-1">
+                        <img class="border-radius-1" src="images/homes/our-products/2.png" alt="">
+                        <h2>Classic Cold Brew</h2>
+                        <p>Smooth, bold, and naturally sweet slow-brewed for pure refreshment.</p>
+                        <div>
+                        <strong>$3.99 <del>$5.55</del></strong>
+                        <button class="btn btn-products">Order now</button>
+                        </div>
+                    </div>
+
+                    <div class="card-coffee border-radius-1">
+                        <img class="border-radius-1" src="images/homes/our-products/10.png" alt="">
+                        <h2>Mocha Iced Coffee</h2>
+                        <p>Chocolate meets coffee in this cool, creamy indulgence.</p>
+                        <div>
+                        <strong>$3.99 <del>$5.55</del></strong>
+                        <button class="btn btn-products">Order now</button>
+                        </div>
+                    </div>
+
+                    <div class="card-coffee border-radius-1">
+                        <img class="border-radius-1" src="images/homes/our-products/4.png" alt="">
+                        <h2>Caramel Chill Latte</h2>
+                        <p>Espresso, milk, and buttery caramel served ice-cold.</p>
+                        <div>
+                        <strong>$3.99 <del>$5.55</del></strong>
+                        <button class="btn btn-products">Order now</button>
+                        </div>
+                    </div>
+
+                    <div class="card-coffee border-radius-1">
+                        <img class="border-radius-1" src="images/homes/our-products/8.png" alt="">
+                        <h2>Hazelnut Iced Coffee</h2>
+                        <p>Nutty, aromatic, and perfectly balanced for a smooth sip.</p>
+                        <div>
+                        <strong>$3.99 <del>$5.55</del></strong>
+                        <button class="btn btn-products">Order now</button>
+                        </div>
+                    </div>
+
+                    <div class="card-coffee border-radius-1">
+                        <img class="border-radius-1" src="images/homes/our-products/7.png" alt="">
+                        <h2>Espresso on Ice</h2>
+                        <p>Strong, bold espresso poured over crisp ice for pure energy.</p>
+                        <div>
+                        <strong>$3.99 <del>$5.55</del></strong>
+                        <button class="btn btn-products">Order now</button>
+                        </div>
+                    </div>
+
+                    <div class="card-coffee border-radius-1">
+                        <img class="border-radius-1" src="images/homes/our-products/3.png" alt="">
+                        <h2>Creamy Frappe</h2>
+                        <p>Blended coffee and milk, topped with smooth froth for a cool delight.</p>
+                        <div>
+                        <strong>$3.99 <del>$5.55</del></strong>
+                        <button class="btn btn-products">Order now</button>
+                        </div>
+                    </div>
+
+                    <div class="card-coffee border-radius-1">
+                        <img class="border-radius-1" src="images/homes/our-products/1.png" alt="">
+                        <h2>Coconut Iced Coffee</h2>
+                        <p>A tropical twist of espresso with creamy coconut flavor.</p>
+                        <div>
+                        <strong>$3.99 <del>$5.55</del></strong>
+                        <button class="btn btn-products">Order now</button>
+                        </div>
+                    </div>
+
+                    <!-- duplicate the 8 cards again for smooth infinite scroll -->
+                    <!-- copy-paste the same 8 cards here -->
+
+
+                </div>
+            </div>
+        </section>
+        <!-- End Products code -->
+
+        <div class="video-promote">
+            <iframe width="1000" height="600" 
+                src="https://www.youtube.com/embed/AGDGZfsQ2fk?autoplay=1&loop=1&playlist=AGDGZfsQ2fk" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="autoplay; fullscreen" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+
+        <!-- The start of footer code  -->
+
+        <footer>
+            <div class="footer-container-all">
+                <div class="shop">
+                    <div class="logo-shop"><h1>Limessery</h1></div>
+                    <p>We make the delicious coffee for the coffee lovers. We are a team of dedicated coffee fans who celebrate exceptional coffee brands and roasters by providing our guests the unique opportunity to try coffee drinks.</p>
+                </div>
+                <div class="footer-menu">
+                    <h1>Our Menu</h1>
+                    <a href="index.html">Home</a>
+                    <a href="pages/aboutPage.html">About Us</a>
+                    <a href="pages/productsPage.html">Products</a>
+                    <a href="#review">Review</a>
+                    <a href="pages/contactPage.html">Contact Us</a>
+                </div>
+                <div class="footer-contact">
+                    <h1>Get in Touch</h1>
+                    <div>
+                        <span class="material-symbols-outlined">location_on</span>
+                        <p>Street 371, Borey Sorla, Phnom Penh</p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">call</span>
+                        <p>+855 967 603 485 </p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">mail</span>
+                        <p>Limessery@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-facebook-fill"></i>
+                        <i class="ri-youtube-fill"></i>
+                        <i class="ri-linkedin-fill"></i>
+                    </div>
+                </div>
+                <div class="footer-img">
+                    <h1>Gallery</h1>
+                    <div>
+                        <img src="images/footer.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="by-me"><p>&reg; by Mrr. Rors Roeurn &trade;</p></div>
     </nav>
 </body>
 </html>

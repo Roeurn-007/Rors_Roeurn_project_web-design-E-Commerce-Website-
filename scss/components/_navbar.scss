@@ -1,0 +1,97 @@
+header{
+    width: 100%;
+    height: 108vh;
+    background-image: url(../../images/homes/background-homepage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 72px;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(40px);
+    height: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.container-menu{
+    gap: 40px;
+    display: flex;
+}
+
+.navbar .container-menu a{
+    color: white;
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  position: relative; 
+  transition: color 0.3s;
+  font-size: 18px;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0; 
+  background-color: $yellow;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover {
+  color: $yellow;
+}
+
+.navbar a:hover::after {
+  width: 100%; 
+}
+
+.container-logo h1:hover,
+.container-icon span:hover{
+    color: $yellow;
+}
+.container-icon{
+    display: flex;
+    gap: 24px;
+}
+.container-logo h1{
+    font-size: 28px;
+    // font-family: 'Dancing Script', cursive;
+}
+
+.slogan{
+  color: $color-white;
+  margin: 10% 8%;
+}
+.slogan h1{
+  font-size: 40px;
+  font-family: $font-family;
+}
+.slogan p strong{
+  color: $yellow;
+}
+.slogan p{
+  margin-top: 24px;
+}
+.slogan {
+  font-size: 24px;
+}
+.slogan div{
+  margin-top: 8px;
+}
+
