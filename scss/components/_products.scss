@@ -101,3 +101,15 @@ del{
   width: 100%;
   height: 100%;
 }
+
+@keyframes moveRight {
+  0%   { transform: translateX(-40%); }
+  100% { transform: translateX(0%); }
+}
+
+.other-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+  animation: moveRight 30s linear infinite;
+}

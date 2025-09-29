@@ -50,7 +50,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 60%;
+    width: 58%;
 }
 .content1 img{
     width: 24%;
@@ -63,4 +63,41 @@ body{
     font-size: 20px;
     line-height: 1.6;
     letter-spacing: 1px;
+}
+.history-coffee {
+    width: 90%;
+    height: 80vh;
+    justify-self: center;
+    background-image: url(../images/about-us/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;      
+}
+
+.history-coffee div {
+    width: 32%;
+    padding:  24px 32px;
+    background: rgba(128, 128, 128, 0.33);
+    backdrop-filter: blur(5px);
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+    transition: transform 0.3s ease, font-size 0.4s ease; 
+}
+.history-coffee div p{
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 1.2px;
+}
+.history-coffee img{
+    width: 100%;
+    height: 100%;
+}
+
+.history-coffee div:hover {
+    transform: scale(1.1); 
+    font-size: 19.5px;
 }
