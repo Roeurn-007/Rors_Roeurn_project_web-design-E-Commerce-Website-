@@ -64,3 +64,198 @@ input, textarea{
 .content-us .title-content{
     margin-top: 32px;
 }
+
+@media (max-width: 480px) {
+    .header-contact {
+        height: 50vh; 
+        margin-top: -2px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 220px; 
+        margin-bottom: 16px;
+    }
+
+    .form-contact {
+        flex-direction: column-reverse;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .form-contact form {
+        width: 94%;
+    }
+
+    input, textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .content-about-services {
+        flex-direction: column;
+        align-items: start;
+        gap: 16px;
+        margin-top: 16px;
+
+    }
+
+    .content-about-services div {
+        margin-left: 8%;
+    }
+
+    .content-about-services div span {
+        font-size: 32px; 
+    }
+
+    .content-us .title-content {
+        margin-top: -40px;
+        font-size: 36px;
+    }
+    .title-content-us{
+    font-size: 46px;
+    margin-top: 14vh;
+    -webkit-text-stroke: 1px white;
+    }
+    .content-about-services div section h1{
+        font-size: 18px;
+    }
+    .content-about-services div section p{
+        font-size: 15px;
+    }
+    .submit{
+        width: 385px;
+    }
+}
+/* Contact page for devices 480px - 700px */
+@media (min-width: 480px) and (max-width: 700px) {
+    .header-contact {
+        height: 65vh; 
+        margin-bottom: 10px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 50vh; 
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .form-contact {
+        flex-direction: column-reverse;
+        gap: 12px;
+        padding: 12px;
+        margin-left: 8px;
+    }
+
+    .form-contact form {
+        width: 90%;
+        margin-left: 32px;
+    }
+
+    input, textarea {
+        width: 100%;
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .content-about-services {
+        margin-top: 12px;
+        flex-wrap: wrap;
+        justify-self: center;
+        row-gap: 16px;
+        justify-content: space-evenly;
+    }
+
+    .content-about-services div span {
+        font-size: 30px; 
+    }
+
+    .content-us .title-content {
+        margin-top: -30px;
+        font-size: 28px;
+    }
+
+    .title-content-us {
+        font-size: 48px;
+        margin-top: 18vh;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .content-about-services div section h1 {
+        font-size: 18px;
+    }
+
+    .content-about-services div section p {
+        font-size: 12px;
+    }
+
+    .submit {
+        width: 575px; 
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 1024px) {
+        .header-contact {
+        height: 60vh; 
+        margin-top: 6px;
+    }
+
+    iframe {
+        width: 98%;
+        height: 40vh; 
+        margin-top: 24px;
+    }
+
+    .form-contact {
+        flex-direction: column-reverse;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .form-contact form {
+        width: 94%;
+    }
+
+    input, textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    .content-about-services {
+        margin-top: 16px;
+        flex-wrap: wrap;
+        justify-self: center;
+        row-gap: 20px;
+        justify-content: space-evenly;
+    }
+
+    .content-about-services div span {
+        font-size: 44px; 
+    }
+
+    .content-us .title-content {
+        margin-top: -40px;
+        font-size: 36px;
+    }
+    .title-content-us{
+    font-size: 64px;
+    margin-top: 22vh;
+    -webkit-text-stroke: 1.4px white;
+    }
+    .content-about-services div section h1{
+        font-size: 24px;
+    }
+    .content-about-services div section p{
+        font-size: 17px;
+    }
+    .submit{
+        width: 750px;
+    }
+    .form-contact{
+        margin-left: 16px;
+    }
+}

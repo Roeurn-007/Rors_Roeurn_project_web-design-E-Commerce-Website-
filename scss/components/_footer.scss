@@ -82,3 +82,202 @@ footer{
 .footer-img h1{
     margin-bottom: 16px;
 }
+
+@media (max-width: 480px){
+    
+.footer-container-all{
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    }
+    footer{
+    border-top: 6px solid $yellow;
+    background: #362d27;
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-left: 6%;
+    padding-top: 16px;
+    }
+    .shop p{
+        font-size: 18px;
+        width: 94%;
+    }
+    .shop{
+        width: 96%;
+    }
+    .logo-shop{
+        color: $yellow;
+        font-size: 14px;
+    }
+    .footer-menu h1,
+    .footer-contact h1,
+    .footer-img h1{
+        font-size: 24px;
+        margin-top: 10px;
+        color: $yellow;
+    }
+    .footer-menu a{
+        font-size: 18px;
+    }
+    .footer-contact div p{
+        font-size: 18px;
+    }
+    .footer-contact div span{
+        font-size: 26px;
+    }
+    .footer-contact div{
+        display: flex;
+        gap: 8px;
+    }
+    .footer-contact div i{
+        font-size: 18px;
+    }
+    .by-me{
+        font-size: 16px;
+        height: 6vh;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    .footer-container-all {
+        color: white;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        border-top: 6px solid $yellow;
+        background: #362d27;
+        margin-top: 56px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding-left: 6%;
+        padding-top: 16px;
+    }
+
+    .shop p {
+        font-size: 18px;
+        width: 94%;
+    }
+
+    .shop {
+        width: 96%;
+    }
+
+    .logo-shop {
+        color: $yellow;
+        font-size: 14px;
+    }
+
+    .footer-menu h1,
+    .footer-contact h1,
+    .footer-img h1 {
+        font-size: 24px;
+        margin-top: 10px;
+        color: $yellow;
+    }
+
+    .footer-menu a {
+        font-size: 18px;
+    }
+
+    .footer-contact div p {
+        font-size: 18px;
+    }
+
+    .footer-contact div span {
+        font-size: 26px;
+    }
+
+    .footer-contact div {
+        display: flex;
+        gap: 8px;
+    }
+
+    .footer-contact div i {
+        font-size: 18px;
+    }
+
+    .by-me {
+        font-size: 20px;
+        height: 8vh;
+    }
+
+}
+
+
+@media (min-width: 480px) and (max-width: 700px) {
+  .footer-container-all {
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    border-top: 6px solid $yellow;
+    background: #362d27;
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-left: 8%;
+    padding-top: 20px;
+  }
+
+  .shop {
+    width: 90%;
+  }
+
+  .shop p {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .logo-shop {
+    color: $yellow;
+    font-size: 16px;
+  }
+
+  .footer-menu h1,
+  .footer-contact h1,
+  .footer-img h1 {
+    font-size: 26px;
+    margin-top: 12px;
+    color: $yellow;
+  }
+
+  .footer-menu a {
+    font-size: 20px;
+  }
+
+  .footer-contact div p {
+    font-size: 20px;
+  }
+
+  .footer-contact div span {
+    font-size: 28px;
+  }
+
+  .footer-contact div {
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer-contact div i {
+    font-size: 20px;
+  }
+
+  .by-me {
+    font-size: 18px;
+    height: 6vh;
+  }
+}

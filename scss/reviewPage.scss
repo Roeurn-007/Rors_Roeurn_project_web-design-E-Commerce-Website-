@@ -47,3 +47,28 @@ header{
     transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
+@media (max-width: 480px) {
+    header{
+    height: 48vh;
+}
+}
+
+@media (min-width: 480px) and (max-width: 700px){
+    header{
+    height: 48vh;
+}
+}
+@media (min-width: 700px) and (max-width: 1024px) {
+    header{
+    height: 55vh;
+}
+.card-review h2{
+    font-size: 25px;
+}
+.card-review div span{
+    font-size: 20px;
+}
+.card-review p{
+    font-size: 18px;
+}
+}

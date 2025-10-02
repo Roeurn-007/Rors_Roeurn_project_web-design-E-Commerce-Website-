@@ -61,3 +61,109 @@ html{
     width: 100%;
     height: 100%;
 }
+@media (max-width: 480px){
+    .content-about-us img{
+    width: 100%;
+    height: 30vh;
+    }
+
+    .container-about-us div{
+        padding: 8px;
+    }
+    .content-about-us div h1{
+        font-size: 18px;
+    }
+    .content-about-us div p{
+        font-size: 12px;
+        line-height: 1.1;
+    }
+    .banner-home{
+    height: 20vh;
+    margin-top: -70%;
+    }
+    .content-about-us{
+        flex-direction: column;
+    }
+    .content-about-us div .btn{
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+
+}
+@media (min-width: 480px) and (max-width: 700px) {
+    .content-about-us img {
+        width: 100%;
+        height: 34vh; 
+    }
+
+    .container-about-us div {
+        padding: 6px;
+    }
+
+    .content-about-us div h1 {
+        font-size: 28px;
+    }
+
+    .content-about-us div p {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .banner-home {
+        height: 25vh;
+        margin-top: -10%;
+    }
+
+    .content-about-us {
+        flex-direction: column;
+    }
+
+    .content-about-us div .btn {
+        padding: 8px 20px;
+        font-size: 18px;
+    }
+    .slogan h1{
+        font-size: 24px;
+    }
+    .slogan .btn{
+        padding: 7px 16px;
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    .content-about-us img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .container-about-us div {
+        padding: 8px;
+    }
+
+    .content-about-us div h1 {
+        font-size: 36px;
+    }
+
+    .content-about-us div p {
+        font-size: 21px;
+        line-height: 1.1;
+    }
+
+    .banner-home {
+        height: 20vh;
+        margin-top: -36%;
+    }
+
+    .content-about-us {
+        flex-direction: column;
+    }
+
+    .content-about-us div .btn {
+        padding: 10px 24px;
+        font-size: 22px;
+    }
+
+}
